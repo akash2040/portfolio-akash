@@ -4,10 +4,248 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
-
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header" role="banner" id="top">
+      <section class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">skills</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="header__text-box row">
+        <section class="header__text">
+          <h1 class="heading-primary">
+            
+            <span>Akash Chanara</span>
+          </h1>
+          
+          <p>A Full Stack Developer</p>
+          <a href="#contact" class="btn btn--pink">Get in touch</a>
+        </section>
+      </section>
+    </header>
+
+    <main role="main">
+
+      
+  
+      <section class="work" id="work">
+        <section class="row">
+          <h2>My Work</h2>
+          <section class="work__boxes">
+            <p>Bike Booking System (College project)
+              The scope of this project was to create a platform where user can request a bike (Motorcycle) servicing and pay
+              bills online.
+              The web application is built in Java platform, using the maven build tool following the MVC architect.
+              User can make an appointment, pay bill, and leave feedback, all online.
+               At backend, I used MYSQL.
+              sed tomcat server to deploy and run the application.</p>
+              <p>Android Attendance system (College Project)
+                This was an Android application developed using the Android studio and java programming language. The goal
+                of this Project was to take the attendance of students using a mobile based UI application.
+                 ERD diagrams were made for completing this project
+                 Use-Case diagrams were made.
+                </p>
+                <p>Bigdata (College Project)
+                  The aim of the project is to find two datasets, that are identical and work on them for further study.
+                   Understood the concepts of various methods and techniques like Oracle, MongoDB, and Hadoop.
+                   This project contains all of the details about the study, visualization, and conclusions gleaned from the
+                  tasks performed on the two datasets, namely the Crime rate in USA from 2000 and crime 2019-avonand-somerset-street, which were in CSV and JSON formats, respectively.
+                  </p>
+            
+  
+            <section class="work__box">
+              <section class="work__text">
+                <h3>Portfolio</h3>
+                <p>
+                  Work done using tools
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Python</li>
+                </ul>
+  
+                <section class="work__links">
+                  <a href="https://akash2040.github.io/Horiseo-Refactor/" target="_blank" class="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/akash2040" title="View Source Code" target="_blank">
+                    <img src="./image/git.png" class="work__code" alt="GitHub">
+                  </a>
+                </section>
+              </section>
+              <section class="work__image-box">
+                <img src="./image/dark.jpg" class="work__image" alt="Project 1" />
+              </section>
+            </section>
+              <!-- MY project -->
+            <section class="work__box">
+              <section class="work__text">
+                <h3>License plate detection (Final year College Project)</h3>
+                <p>
+                  This project was completed as final year project which used artificial intelligence and machine learning for the
+                  recognition of characters from the light vehicles registered in the Bagmati zone of Nepal.
+                   The AI model and system were developed using python programming language and django framework.
+                  The front-end development was done using Html, CSS, and JavaScript.
+                </p>
+                <ul class="work__list">
+                  <li>python</li>
+                  <li>JavaScript</li>
+                  <li>SQL</li>
+                  <li>MongoDB</li>
+                </ul>
+  
+                <section class="work__links">
+                  <a href="#" class="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="#">
+                    <img src="./image/git.png" class="work__code" title="View Source Code" alt="GitHub">
+                  </a>
+                </section>
+              </section>
+              <section class="work__image-box">
+                <img src="./image/li.png" class="work__image" alt="Project 1" />
+              </section>
+            </section>
+  
+            <section class="work__box">
+              <section class="work__text">
+                <h3>Ecommerce</h3>
+                <p>
+                  Developed in Java platform, this project covers the functionalities of an Online Shopping web-application,
+                  where user can find/search/filter the required products and buy them.
+                  This is a web-based application running on the localhost tomcat server.
+                   Users can search/filter the product available within the platform.
+                  Admin can add/sort the new products and keep track of product inventory and transactions.
+                </p>
+                <ul class="work__list">
+                  <li>JAva</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>SQL</li>
+                </ul>
+  
+                <section class="work__links">
+                  <a href="#" class="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="#">
+                    <img src="./image/git.png" class="work__code" title="View Source Code" alt="GitHub">
+                  </a>
+                </section>
+              </section>
+              <section class="work__image-box">
+                <img src="./image/ecco.jpg" class="work__image" alt="Project 3" />
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+  
+      <!-- ***** skills ***** -->
+  
+      <section class="skills" id="skills">
+        <section class="row">
+          <h2>skills</h2>
+          <section class="skills__logos">
+            <!-- Add logos of the skills or companies you'have worked with. -->
+            <img src="./image/html.png" class="skills__logo" alt="Company 2" />
+            <img src="./image/js.png" class="skills__logo" alt="Company 3" />
+            <img src="./image/orc.png" class="skills__logo" alt="Company 1" />
+            <img src="./image/py.png" class="skills__logo" alt="Company 1" />
+            <img src="./image/sql.png" class="skills__logo" alt="Company 3" />
+            <img src="./image/java.png" class="skills__logo" alt="Company 1" />
+          </section>
+        </section>
+      </section>
+  
+      <!-- ***** About ***** -->
+  
+      <section class="about" id="about">
+        <section class="row">
+          <h2>About Me</h2>
+          <section class="about__content">
+            <section class="about__text">
+              <!-- paragraph  info about myself -->
+              <p>
+                Enthusiastic and motivated graduate student of Information Technology seeking to peruse a career in 
+                software development.Proficient in Python, Java, C, C++, HTML, CSS, MySQL, Visual Studio, Android Studio
+                 etc.Strong object-oriented programming knowledgeable to learn new languages and APIs quickly.Basic 
+                 knowledge in unit/automated testing.
+              </p>
+              <!-- Provide a link to your resume -->
+              <a href="#" class="btn">My Resume</a>
+            </section>
+  
+            <section class="about__photo-container">
+              <!-- A photo of me -->
+              <img class="about__photo" src="./image/aa1.jpeg" alt="mypic" />
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+  
+    <!-- ***** get in touch ***** -->
+  
+    <section class="contact" id="contact">
+      <section class="row">
+        <h2>Get in Touch</h2>
+        <section class="contact__info">
+          <p>
+            Are you looking for a Full Stack Developer or want to ask questions? or have some advice for me
+            or just want to say "Hi 👋" in any case feel free to Let me know. I
+            will do my best to respond back. 😊 The quickest way to reach out to
+            me is via an email.
+          </p>
+          
+          <a href="akashchanara@gmail.com" class="btn">akashchanara@gmail.com</a>
+        </section>
+      </section>
+    </section>
+  
+
+    <footer role="contentinfo" class="footer">
+    <section class="row">
+     
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/" title="Link to Twitter Profile">
+            <img src="./image/twii.png" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/akash2040/" title="Link to Github Profile">
+            <img src="./image/git.png" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+       
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/">
+            <img src="./image/lika.png" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>      
+      <p>
+        &copy; 2022 - Akash Chanara <a href="https://akash2040.github.io/Horiseo-Refactor/" class="link">Akash</a>.
+      </p>
+      
+    </section>
+  </footer> 
+  </body>
 </html>
